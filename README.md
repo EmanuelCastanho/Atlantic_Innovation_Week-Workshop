@@ -11,7 +11,7 @@ To run this workshop just click on the **Binder Environment**. If you want to te
 
 If you don't want to create a COAH account, or if your account is recent, you can download an example product [HERE](https://drive.google.com/drive/folders/1oMTw1laADQHn2_uwDBVKm6YoAcBr2XPt?usp=sharing). Create a new folder called *Sentinel2-Downloaded-Products* and save the product to that folder.
 
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EmanuelCastanho/Atlantic_Innovation_Week-Workshop/main?labpath=Introduction_to_Marine_Debris_Detection_with_Sentinel-2_using_Python.ipynb)
 
 Results (south of Madeira Island, Portugal - 2021/03/29):
 
