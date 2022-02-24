@@ -9,8 +9,8 @@ This workshop gives you a brief introduction on marine debris detection using Se
 
 **How to run this workshop?**
 1. Install Anaconda (this notebook uses Python 3.8);
-1.1. Use *environment.yml* file to create your environment or 
-1.2. Install the libraries using the notebook on an existing evironment;
+- Use *environment.yml* file to create your environment or... 
+- Install the libraries using the notebook on an existing evironment;
 2. To test the *sentinelsat* library, create a [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/self-registration) free account and add the credentials to the env.txt file, changing the file to hidden (.env); 
 3. If you don't want to create a COAH account, or if your account is recent, you can download an example product [HERE](https://drive.google.com/drive/folders/1oMTw1laADQHn2_uwDBVKm6YoAcBr2XPt?usp=sharing). Create a new folder called *Sentinel2-Downloaded-Products* and save the product to that folder.
 
