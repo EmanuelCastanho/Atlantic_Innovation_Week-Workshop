@@ -12,6 +12,8 @@ This workshop gives you a brief introduction on marine debris detection using Se
 2. To test the *sentinelsat* library, create a [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/self-registration) free account and add the credentials to the env.txt file, changing the file to hidden (.env); 
 3. If you don't want to create a COAH account, or if your account is recent, you can download an example product [HERE](https://drive.google.com/drive/folders/1oMTw1laADQHn2_uwDBVKm6YoAcBr2XPt?usp=sharing). Create a new folder called *Sentinel2-Downloaded-Products* and save the product to that folder.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EmanuelCastanho/Atlantic_Innovation_Week-Workshop/main?labpath=Introduction_to_Marine_Debris_Detection_with_Sentinel-2_using_Python.ipynb)
+
 Results (south of Madeira Island, Portugal - 2021/03/29):
 
 ![Results](https://user-images.githubusercontent.com/69935277/155123275-18cb4f19-2861-44d1-b41f-fbb52c4c5f50.png)
