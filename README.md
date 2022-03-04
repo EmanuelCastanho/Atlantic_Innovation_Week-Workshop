@@ -12,7 +12,7 @@ This workshop gives you a brief introduction on marine debris detection using Se
 2. Prepare the Environment:
 - **First Method:** Use *environment.yml* file to create your environment (tested on macOS Catalina and Anaconda 4.11.0). If you get `ResolvePackageNotFound` error try the second method;  
 - **Second Method:** Create an environment called AIW-Workshop-Env, install Jupyter Notebook and manually install the following packages:
-  - `conda install -c conda-forge gdal`
+  - `conda install -c conda-forge gdal` or `conda install gdal`
   - `pip install geopandas`
   - `pip install rasterio`
   - `pip install sentinelsat`
