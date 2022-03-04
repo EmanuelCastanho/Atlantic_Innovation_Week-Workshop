@@ -10,7 +10,7 @@ This workshop gives you a brief introduction on marine debris detection using Se
 **How to run this workshop?**
 1. Install [ANACONDA](https://www.anaconda.com/products/individual) (this notebook uses Python 3.8);
 2. Prepare the Environment:
-- **First Method:** Use *environment.yml* file to create your environment (tested on macOS Catalina and Anaconda 4.11.0). If you get `ResolvePackageNotFound` error try the second method;  
+- **First Method:** Use *environment_macOS.yml* or *environment_Win.yml* file to create your environment (tested on macOS Catalina, Windows 10, Anaconda 4.11.0). If you get `ResolvePackageNotFound` error try the second method;  
 - **Second Method:** Create an environment called AIW-Workshop-Env, install Jupyter Notebook and manually install the following packages:
   - `conda install -c conda-forge gdal` or `conda install gdal`
   - `pip install geopandas`
