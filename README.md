@@ -10,8 +10,8 @@ This workshop gives you a brief introduction on marine debris detection using Se
 **How to run this workshop?**
 1. Install [ANACONDA](https://www.anaconda.com/products/individual) (this notebook uses Python 3.8);
 2. Prepare the Environment:
-- Use *environment.yml* file to create your environment (tested on macOS Catalina and Anaconda 4.11.0). If you get `ResolvePackageNotFound` error try the second method;  
-- Create an environment called AIW-Workshop-Env, install Jupyter Notebook and open the workshop notebook, then run the cell that installs the required packages.
+- **First Method:** Use *environment.yml* file to create your environment (tested on macOS Catalina and Anaconda 4.11.0). If you get `ResolvePackageNotFound` error try the second method;  
+- **Second Method:** Create an environment called AIW-Workshop-Env, install Jupyter Notebook and open the workshop notebook, then run the cell that installs the required packages.
 3. To test the *sentinelsat* library, create a [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/self-registration) free account and add the credentials to the env.txt file, changing the file to hidden (.env); 
 4. If you don't want to create a COAH account, or if your account is recent, you can download an example product [HERE](https://drive.google.com/drive/folders/1oMTw1laADQHn2_uwDBVKm6YoAcBr2XPt?usp=sharing). Create a new folder called *Sentinel2-Downloaded-Products* and save the product to that folder.
 
