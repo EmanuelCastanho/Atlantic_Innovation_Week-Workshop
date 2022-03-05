@@ -11,7 +11,7 @@ This workshop gives you a brief introduction on marine debris detection using Se
 1. Install [ANACONDA](https://www.anaconda.com/products/individual) (this notebook uses conda 4.11.0 and Python 3.8);
 2. Prepare the Environment:
 - **First Method:** Use *environment_macOS.yml* or *environment_Win.yml* file to create your environment (tested on macOS Catalina and Windows 10). If you get `ResolvePackageNotFound` error try the second method;  
-- **Second Method:** Create an environment called AIW-Workshop-Env and manually install the following packages: `jupyter`, `gdal=3.4.1`, `geopandas=0.10.2`, `rasterio=1.2.10` (with conda-forge), `sentinelsat==1.1.1`, `python-dotenv==0.19.2` and `zipfile36==0.1.3` (with pip).
+- **Second Method:** Create an environment called AIW-Workshop-Env and manually install the following packages: `jupyter` (pip install notebook on windows), `gdal=3.4.1`, `geopandas=0.10.2`, `rasterio=1.2.10` (with conda-forge), `sentinelsat==1.1.1`, `python-dotenv==0.19.2` and `zipfile36==0.1.3` (with pip).
 3. To test the *sentinelsat* library, create a [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/self-registration) free account and add the credentials to the env.txt file, changing the file to hidden (.env); 
 4. If you don't want to create a COAH account, or if your account is recent, you can download an example product [HERE](https://drive.google.com/drive/folders/1oMTw1laADQHn2_uwDBVKm6YoAcBr2XPt?usp=sharing). Create a new folder called *Sentinel2-Downloaded-Products* and save the product to that folder.
 
