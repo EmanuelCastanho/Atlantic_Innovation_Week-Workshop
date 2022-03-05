@@ -236,4 +236,4 @@ dependencies:
     - sentinelsat==1.1.1
     - tqdm==4.63.0
     - zipfile36==0.1.3
-prefix: /Users/emanuelcastanho/anaconda3/envs/AIW-Workshop-Env
+prefix: 
