@@ -1,0 +1,2 @@
+This .txt file is only being used to include the "Sentinel2-Downloaded-Products" directory on GitHub.
+This file must be replaced with a Sentinel-2 product (if COAH credentials are not used).
