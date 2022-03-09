@@ -5,6 +5,22 @@ AZORES, PORTUGAL
 
 ## Workshop - Introduction to Marine Debris Detection with Sentinel-2 using Python
 
+**[PT]**
+
+Este workshop oferece uma breve introdução sobre a detecção de detritos marinhos utilizando dados Level-2A de Sentinel-2. Irás aprender como baixar automaticamente os produtos Sentinel-2 usando Python (*sentinelsat*), usar bibliotecas de análise de dados geoespaciais (*Rasterio*, *GeoPandas* e *GDAL*) e calcular índices (Floating Algae Index-FAI e Floating Debris Index-FDI) para identificar aglomerações de vegetação flutuante (como *sargassum*) e possíveis aglomerados de lixo marinho.
+
+**Como rodar este workshop?**
+1. Instale [ANACONDA](https://www.anaconda.com/products/individual) ou [MINICONDA](https://docs.conda.io/en/latest/miniconda.html) (este notebook utiliza Python 3.8);
+2. Prepare o ambiente:
+- **Primeiro método:** utilize o arquivo *environment_macOS.yml* ou *environment_Win.yml* para criar o ambiente (testado no macOS Catalina e Windows 10). Se surgir o erro `ResolvePackageNotFound` tente o segundo método;
+- **Segundo Método:** Crie um ambiente chamado AIW-Workshop-Env e instale manualmente os seguintes pacotes: `jupyter`, `gdal=3.4.1`, `geopandas=0.10.2`, `rasterio=1.2.10` (todos com conda-forge), `sentinelsat==1.1.1`, `python-dotenv==0.19.2` e `zipfile36==0.1.3` (todos com pip). Instale os pacotes conda-forge primeiro. No Windows, não use `conda install -c conda-forge jupyter`, mas sim `pip install notebook`. No Windows, para resolver o erro *geopandas* relacionado com *spatialindex_c.dll*, use `pip uninstall rtree`.
+3. Para testar a biblioteca *sentinelsat*, crie uma conta gratuita no [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/self-registration) e adicione as credenciais ao arquivo env.txt, alterando o arquivo para oculto e removendo a extensão .txt (.env);
+4. Se não quiseres criar uma conta COAH, ou se a tua conta for recente, podes baixar um exemplo de produto [AQUI](https://drive.google.com/drive/folders/1oMTw1laADQHn2_uwDBVKm6YoAcBr2XPt?usp=sharing ) e salvar na pasta *Sentinel2-Downloaded-Products*.
+
+Resultados (sul da Ilha da Madeira, Portugal - 2021/03/29):
+
+**[EN]**
+
 This workshop gives you a brief introduction on marine debris detection using Sentinel-2 Level-2A data. You will learn how to automatically download Sentinel-2 products using Python (*sentinelsat*), use geospatial data analysis libraries (*Rasterio*, *GeoPandas* and *GDAL*) and calculate band indices (Floating Algae Index-FAI and Floating Debris Index-FDI) to identify agglomerations of floating vegetation (such as *sargassum*) and possible clusters of marine litter.
 
 **How to run this workshop?**
