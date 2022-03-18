@@ -35,4 +35,4 @@ This workshop gives you a brief introduction on marine debris detection using Se
 
 Results (south of Madeira Island, Portugal - 2021/03/29):
 
-![Results](https://user-images.githubusercontent.com/69935277/155123275-18cb4f19-2861-44d1-b41f-fbb52c4c5f50.png)
+![Results](https://user-images.githubusercontent.com/69935277/159045080-81e25981-dcaa-4651-a87b-1c5e3915eeb2.png)
